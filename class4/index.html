@@ -3,7 +3,8 @@
         <head>
             <head>
                 <title>Israel de Freitas </title>
-                <link rel="stylesheet" href="styles.css" />
+                <link rel="stylesheet" href="styles.css" /> 
+                <script src="index.js"></script>
             </head>
         </head>
         <body>
@@ -13,11 +14,11 @@
                         <div class="barra-navegacao">
                             <H2 class ="titulo-navegacao">Israel de Freitas P.</H2>
                             <div>
-                                <a class ="links-navegacao">Habilidades</a>
-                                <a class ="links-navegacao">Portifólio</a>
-                                <a class ="links-navegacao">Experiências</a>
+                                <a onclick="onClickScroolTo('section-abilities')" class ="links-navegacao">Habilidades</a>
+                                <a onclick="onClickScroolTo('section-Portifolio')" class ="links-navegacao">Portifólio</a>
+                                <a onclick="onClickScroolTo('section-Experiências')" class ="links-navegacao">Experiências</a>
                             </div>
-                            <button>CONTATO</button>
+                            <button onclick="onClickScroolTo('section-contact')" >CONTATO</button>
                            </div>
                            <div class="hero-info">
                             <div>
@@ -27,7 +28,7 @@
                                     Progamador deste 2021, com foco em desenvovimento web e mobile,
                                     atualmente em  mais de 20 Projetos.
                                 </p>
-                                <button>ENTRAR EM CONTATO</button>
+                                <button onclick="onClickScroolTo('section-contact')">ENTRAR EM CONTATO</button>
                                 <div class="hero-info-icons-container"> 
                                     <a>
                                         <img alt="GitHub" class="hero-info-icons-img" src="img/icons/github.png" />
@@ -48,7 +49,7 @@
                             </div>
                            </div>
                        </section>
-                       <section class="section-abilities">
+                       <section class="section-abilities" id="section-abilities">
                             <h2>Habilidades </h2> 
                             <h2 class="verde">que domino. </h2>
                             <div class="ability-cards-container ">
@@ -110,7 +111,7 @@
                                 </div>
                             </div>
                        </section>
-                       <section class="section-portfolio">
+                       <section class="section-portfolio" id="section-Portifolio">
                         <h2>Portifólio </h2> 
                         <h2 class="verde"> de projetos.</h2>
                         <div class="section-portifolio-grid">
@@ -161,7 +162,7 @@
                             </div>
                         </div>
                        </section>
-                       <section class="section-experiences">
+                       <section class="section-experiences" id="section-Experiências">
                         <h2>Experiências</h2> 
                         <h2 class="verde">Profissionais.</h2>
                         <div class="section-experiences-card">
@@ -193,7 +194,7 @@
                             </div>
                         </div> 
                        </section>
-                       <section class="section-contact">
+                       <section class="section-contact" id="section-contact">
                         <h2>Como posso</h2> 
                         <h2 class="verde">te ajudar ?</h2>
                         <p>
