@@ -1,11 +1,22 @@
 @media only screen and (max-device-width: 450px) {
+  H1 {
+    text-align: center;
+  }
+
+  .p {
+    font-size: 36px;
+    margin: 8px;
+    text-align: left;
+    max-width: 70%;
+  }
+
   button {
     height: 76px;
     border-radius: 20px;
     background-color: #219653;
     border-width: 0px;
     color: #fefefe;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: bold;
     letter-spacing: 0.16rem;
     padding-left: 12px;
@@ -27,10 +38,17 @@
     border-width: 5px;
   }
   .hero-info-title {
-    font-size: 33px;
+    font-size: 76px;
     font-weight: bold;
     margin: 0px;
     margin-top: 24px;
+  }
+
+  .hero-info-subtitle {
+    font-size: 36px;
+    line-height: 33px;
+    max-width: 100%;
+    margin-top: 16px;
   }
 
   .content-container {
@@ -79,6 +97,7 @@
 
   .hero-info {
     display: flex;
+    flex-direction: column;
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
@@ -87,6 +106,15 @@
     padding-top: 64px;
   }
 
+  .hero-info-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 24px;
+    width: 100%;
+  }
   .footer-content {
     display: flex;
     flex-direction: row;
