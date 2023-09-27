@@ -3,11 +3,32 @@
     text-align: center;
   }
 
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    line-height: 68px;
+    font-size: 64px;
+    color: #1e1e1e;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  h5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0px;
+  }
+
   .p {
     font-size: 36px;
     margin: 8px;
     text-align: left;
     max-width: 70%;
+  }
+
+  P {
+    font-size: 26px;
+    margin-top: 12px;
   }
 
   button {
@@ -139,7 +160,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     width: 100%;
-    margin-top: 10%;
+    margin-top: 44px;
     padding-top: 64px;
     padding-bottom: 64px;
   }
@@ -156,12 +177,25 @@
   .ability-cards-container {
     display: grid;
     width: 100%;
-    row-gap: 36px;
-    grid-template-columns: auto;
+    row-gap: 16px;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
-    justify-content: center;
+    justify-content: flex-start;
     align-content: center;
-    margin-top: 12px;
+    margin-top: 44px;
+  }
+
+  .ability-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 44vw;
+    height: auto;
+    border-width: 1px;
+    border-color: #d9d9d9;
+    border-radius: 12px;
+    border-style: solid;
+    padding-top: 16px;
   }
 
   .section-experiences-card {
