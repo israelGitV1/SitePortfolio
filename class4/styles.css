@@ -38,7 +38,9 @@ li {
   margin-bottom: 12px;
   font-weight: 500;
 }
-
+a {
+  font-size: 36px;
+}
 .root-container {
   display: flex;
   flex-direction: column;
