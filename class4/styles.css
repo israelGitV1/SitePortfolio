@@ -39,7 +39,7 @@ li {
   font-weight: 500;
 }
 a {
-  font-size: 36px;
+  font-size: 16px;
 }
 .root-container {
   display: flex;
@@ -73,7 +73,7 @@ a {
   flex-direction: row;
   align-items: baseline;
   justify-content: space-between;
-  margin-top: 64px;
+  margin-top: 36px;
 }
 
 .hero-info {
@@ -83,7 +83,7 @@ a {
   justify-content: space-between;
   width: 75%;
   height: 594px;
-  padding-top: 64px;
+  padding-top: 36px;
 }
 
 .hero-info-title {
@@ -108,19 +108,15 @@ a {
 
 .links-navegacao {
   color: #1e1e1e;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: -0.003rem;
   cursor: pointer;
 }
 
 .div-hero-info-image {
-  width: 100%;
-  height: 100%;
   text-align: right;
 }
 .hero-info-image {
-  height: 100%;
-  width: 75%;
   border-radius: 180px;
   border-color: #219653;
   border-style: solid;
@@ -184,7 +180,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  width: 94vw;
   margin-top: 10%;
   padding-top: 64px;
   padding-bottom: 64px;
@@ -236,7 +232,7 @@ footer {
 
 .section-portfolio {
   display: flex;
-  width: 100%;
+  width: 94vw;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
