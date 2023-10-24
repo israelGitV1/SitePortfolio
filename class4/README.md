@@ -7,6 +7,10 @@ The main goal is create a website with my professional information.
 
 <img src="https://github.com/israelGitV1/SitePortfolio/blob/main/class4/img/preview.png.png" height = "500"/>
 
+## Live link:
+
+https://israelgitv1.github.io/SitePortfolio/class4/
+
 ## Main concepts applied
 
 - Flexbox
@@ -31,5 +35,5 @@ site-portfolio
 3. Open the index file with the browser:
 
 ```
-class4/index.html
+index.html
 ```
