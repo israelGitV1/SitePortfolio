@@ -13,3 +13,23 @@ The main goal is create a website with my professional information.
 - DOM manipulation
 - Events
 - CSS Media Query
+
+## Isturctions to run:
+
+1. Clone the project:
+
+```
+https://github.com/israelGitV1/SitePortfolio.git
+```
+
+2. After clone open the folder:
+
+```
+site-portfolio
+```
+
+3. Open the index file with the browser:
+
+```
+index.html
+```
